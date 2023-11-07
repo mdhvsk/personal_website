@@ -1,0 +1,52 @@
+.aboutMe {
+    /* height: 800px; */
+    background-color: whitesmoke;
+}
+
+.aboutMe-intro {
+    padding: 100px 100px 0px 100px;
+    text-align: center;
+}
+
+.aboutMe-aboutHeader {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.aboutMe-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px 100px 50px;
+}
+
+.aboutMe-section {
+    width: 50%;
+    height: 400px;
+    padding: 50px;
+}
+
+.aboutMe-desc-header {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.aboutMe-desc-skill-header {
+    font-weight: 500;
+    ;
+}
+
+.aboutMe-desc-skill-list {
+    display: flex;
+}
+
+.skill {
+    color: white;
+    font-size: 0.75rem;
+    background-color: #FF621A;
+    padding: 10px 20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
