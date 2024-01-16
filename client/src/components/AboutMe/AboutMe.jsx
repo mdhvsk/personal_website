@@ -64,9 +64,11 @@ const AboutMe = () => {
 
             </div>
             <div className='aboutMe-certs'>
-                <h2>Certifications</h2>
+                <h1 className='aboutMe-certs-header'>Certifications</h1>
                 <div className='aboutMe-certs-list'>
-                    <img src="/ckad-logo.png" height={200} />
+                    <img src="/aws-saa.png" height={250} />
+                    <img src="/ckad-logo.png" height={250} />
+
                 </div>
             </div>
 

@@ -17,13 +17,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 50px 100px 50px;
+    padding: 25px 25px;
 }
 
 .aboutMe-section {
     width: 50%;
     height: 400px;
-    padding: 50px;
+    padding: 5px 50px;
+    border: 2px solid pink;
+
 }
 
 .aboutMe-desc-header {
@@ -34,7 +36,7 @@
 
 .aboutMe-desc-skill-header {
     font-weight: 500;
-    ;
+
 }
 
 .aboutMe-desc-skill-list {
@@ -49,4 +51,21 @@
     margin-right: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
+}
+
+.aboutMe-certs {
+    text-align: center;
+}
+
+.aboutMe-certs-header {
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.aboutMe-certs-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
 }
